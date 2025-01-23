@@ -4,3 +4,5 @@
 vim.keymap.set("i", "jj", "<Esc>", { desc = "Map jj to Escape in insert mode" })
 vim.keymap.set("i", "jk", "<Esc>", { desc = "Map jk to Escape in insert mode" })
 vim.keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
+vim.keymap.set("n", "H", "0", { desc = "Go to the beginning of the line" })
+vim.keymap.set("n", "L", "$", { desc = "Go to the end of line" })
